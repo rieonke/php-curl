@@ -1,0 +1,26 @@
+{
+    "name": "rieon/curl",
+    "description": "php curl.",
+    "homepage": "https://github.com/rieonke/curl",
+    "license": "MIT",
+    "keywords": [
+        "php", "curl","http", "json", "requests"
+    ],
+    "authors": [
+        {
+            "name": "Rieon Ke"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rieon\\Common\\Curl": "src/Curl/"
+        }
+    }
+}
