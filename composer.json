@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Rieon\\Common\\Curl": "src/Curl/"
+            "Rieon\\Common\\Curl\\": "src/Curl/"
         }
     }
 }
